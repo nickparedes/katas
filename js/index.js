@@ -3,6 +3,7 @@ import hamburguerMenu, {codeInMarkdown} from "./app.js";
 import {addBinary} from "./katas/7-kyu.js"
 import {summation} from "./katas/8-kyu.js"
 import {flood} from "./katas/3-kyu.js"
+import {directionInGrid} from  "../js/katas/6-kyu.js"
 
 
 const d =document
@@ -31,7 +32,7 @@ d.addEventListener("DOMContentLoaded",()=>{
 
 
 
-    console.log(flood());
+    console.log(directionInGrid());
 
 })
 
